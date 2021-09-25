@@ -12,10 +12,6 @@
     "repository": "https://github.com/vivek-TP/TG-BOT",
     "success_url": "https://telegram.dog/VKPROJECTS",
     "env": {
-        "TG_BOT_TOKEN": {
-            "description": "You Telegram Bot Token from @BotFather",
-            "value": ""
-        },
         "BOT_TOKEN": {
             "description": "Bot Token",
             "value": ""
