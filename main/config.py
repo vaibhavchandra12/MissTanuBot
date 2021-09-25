@@ -3,7 +3,6 @@ import os
 
 
 class Config:
-    """Config class for variables."""
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
 APP_ID = int(os.environ.get("APP_ID"))
@@ -17,9 +16,9 @@ SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP")
 UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL")
 LOG_CHANNEL = os.environ.get("LOG_CHANNEL")
 
-class Local:
-    """Config class for variables."""
 
+class Local:
+    
 LOG_CHANNEL = "-1001182935463"
 BOT_TOKEN = "123456:jsd9rh443fh9dvs"
 APP_ID = "192803"
