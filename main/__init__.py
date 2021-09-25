@@ -1,6 +1,5 @@
 from config import Config
 from pyrogram import Client as kabeercmd
-from pyrogram import filters
 
 log_channel_ = Config.LOG_CHANNEL
 
