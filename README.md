@@ -1,5 +1,6 @@
 # Pyrogram
-
+## Deploy
+[Heroku](https://heroku.com/deploy?template=https://github.com/vaibhavchandra12/MissTanuBot)
 ##### An Simple Demo Telegram Bot
 
 <p align="left">
