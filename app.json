@@ -1,0 +1,71 @@
+{
+    "name": "Bot",
+    "description": "Example Bot",
+    "logo": "https://telegra.ph/file/71aaa621508cd696ab538.jpg",
+    "keywords": [
+        "Auto",
+        "Filter",
+        "Telegram Bot",
+        "EXAMPLE"
+    ],
+    "website": "https://example.com",
+    "repository": "https://github.com/vivek-TP/TG-BOT",
+    "success_url": "https://telegram.dog/VKPROJECTS",
+    "env": {
+        "TG_BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot Token",
+            "value": ""
+        },
+        "BOT_USERNAME": {
+            "description": "Bot username without @",
+            "value": ""
+        },
+        "LOG_CHANNEL": {
+            "description": "Log channel id",
+            "value": ""
+        },
+        "OWNER_ID": {
+            "description": "Owner ID",
+            "value": ""
+        },
+        "SUDO_USERS": {
+            "description": "SUDO USERS ID",
+            "value": ""
+        },
+        "DEV_USERS": {
+            "description": "Dev users id",
+            "value": ""
+        },
+        "UPDATES_CHANNEL": {
+            "description": "Updates channel username without @",
+            "value": ""
+        },
+        "SUPPORT_GROUP": {
+            "description": "Support Group username without @",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org or @UseTGXBot",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org or @UseTGXBot",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
