@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from config import Config
+from main.config import Config
 from pyrogram import Client as kabeercmd
 from main.text import MSG
 
