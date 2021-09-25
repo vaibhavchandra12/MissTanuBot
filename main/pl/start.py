@@ -7,7 +7,7 @@ from main.text import MSG
 @kabeercmd.on_message(filters.command('start') & filters.private)
 async def start_(client: kabeercmd, message: Message):
     await message.reply_text(
-        text=MSG.START_MSG,
+        f"""Bot Under Beta Testing"""
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
