@@ -2,12 +2,12 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from config import Config
 from pyrogram import Client as kabeercmd
-import text
+from text import MSG
 
 @kabeercmd.on_message(filters.command('start') & filters.private)
 async def start(client, message):
     await message.reply_text(
-        text=text.START_MSG,
+        text=MSG.START_MSG,
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
