@@ -1,4 +1,4 @@
-from config import Config
+from main.config import Config
 from pyrogram import Client as kabeercmd
 
 log_channel_ = Config.LOG_CHANNEL
