@@ -5,7 +5,7 @@ import os
 class Config:
     BOT_TOKEN = os.environ.get("BOT_TOKEN")
     APP_ID = int(os.environ.get("APP_ID"))
-    API_HASH = os.environ.get("API_HASH")
+    APP_HASH = os.environ.get("API_HASH")
     BOT_USERNAME = os.environ.get("BOT_USERNAME")
     OWNER_ID = int(os.environ.get("OWNER_ID"))
     SUDO_USERS = int(os.environ.get("SUDO_USERS"))
