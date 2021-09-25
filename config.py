@@ -5,17 +5,17 @@ import os
 class Config:
     """Config class for variables."""
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
-SUDO_USERS = int(os.environ.get("SUDO_USERS", ""))
-DEV_USERS = int(os.environ.get("DEV_USERS", ""))
-BOT_NAME = os.environ.get("BOT_NAME", "")
-SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", "")
-UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
+APP_ID = int(os.environ.get("APP_ID"))
+API_HASH = os.environ.get("API_HASH")
+BOT_USERNAME = os.environ.get("BOT_USERNAME")
+OWNER_ID = int(os.environ.get("OWNER_ID"))
+SUDO_USERS = int(os.environ.get("SUDO_USERS"))
+DEV_USERS = int(os.environ.get("DEV_USERS"))
+BOT_NAME = os.environ.get("BOT_NAME")
+SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP")
+UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL")
+LOG_CHANNEL = os.environ.get("LOG_CHANNEL")
 
 class Local:
     """Config class for variables."""
