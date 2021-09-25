@@ -1,3 +1,7 @@
+import os
+
+
+
 class Config:
     """Config class for variables."""
 
