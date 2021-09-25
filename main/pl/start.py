@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from config import Config
 from pyrogram import Client as kabeercmd
-from text import MSG
+from main.text import MSG
 
 @kabeercmd.on_message(filters.command('start') & filters.private)
 async def start(client, message):
