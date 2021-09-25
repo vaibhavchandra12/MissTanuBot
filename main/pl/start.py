@@ -17,5 +17,3 @@ async def start_(client: kabeercmd, message: Message):
                 ]
             ]
         ),
-        reply_to_message_id=message.message_id
-    )
